@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Oswald&display=swap');
+
+body {
+ 
+    font-family: 'Cabin', sans-serif;
+font-family: 'Oswald', sans-serif;
+background: #feffff;
+    background: -moz-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: -o-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    background: radial-gradient(center, ellipse cover, #57afab 0%, #5f6fa5 100%);
+    padding: 10px;
+    padding-left: 50px;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: crimson;
+}
+a:visited {
+  color:rgb(221, 72, 72);
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+img {
+    border-radius: 18px;
+    -webkit-box-shadow: 4px 5px 6px 4px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 5px 6px 4px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 5px 6px 4px rgba(34, 60, 80, 0.2);
+}
+.name {
+  text-align: center;
+}
+.h11 {
+  text-align: center;
+}
+.card {
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  border-radius: 18px;
+}
+.hunting {
+  padding-left: 25px;
+}
+.social {
+    padding: 15px;
+    background: rgba(70, 142, 236, 0.65);
+    border-radius: 15px;
+}
+.int {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(29, 149, 230, 0.6);
+}
+.contact h2 {
+  text-align: center;
+}
+.forms label{
+  display: block;
+}
+.forms input,
+.forms textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgba(47, 47, 47, 0.952);
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  outline: none;
+  font-family: inherit;
+}
+.forms ::placeholder{
+  color: rgb(13, 17, 24);
+}
+.forms input {
+  width: 35%;
+}
+.button input {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  background-color: rgba(68, 122, 209, 0);
+  font-size: 25px;
+  font-family: inherit;
+  
+}
+
+
+
+
+
